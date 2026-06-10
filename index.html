@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournage ESTP — Albums Photos & Vidéos</title>
+    <!-- Importation de polices modernes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Icones FontAwesome pour un rendu ultra-pro -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+
+</head>
+<body>
+
+    <!-- ==========================================================================
+       ÉCRAN D'ACCUEIL PLEIN ÉCRAN (HERO SECTION)
+       ========================================================================== -->
+    <header class="hero">
+        <!-- Conteneur d'images de fond qui défilent en fondu -->
+        <div class="slideshow-container">
+            <div class="slide active" style="background-image: url('images/Garden.jpg');"></div>
+            <div class="slide" style="background-image: url('images/gourmet.jpg');"></div>
+            <div class="slide" style="background-image: url('images/Pub_Asie.jpg');"></div>
+            <div class="slide" style="background-image: url('images/Pub_bleu.jpg');"></div>
+            <div class="slide" style="background-image: url('images/Pub_gris.jpg');"></div>
+            <div class="slide" style="background-image: url('images/Pub_halloween.jpg');"></div>
+            <div class="slide" style="background-image: url('images/Pub_hilap.jpg');"></div>
+            <div class="slide" style="background-image: url('images/Pub_Violet.jpg');"></div>
+            <div class="slide active" style="background-image: url('images/Pub_noël.jpg');"></div>
+            <div class="slide" style="background-image: url('images/purge.jpg');"></div>
+            <div class="slide" style="background-image: url('images/purpelfiction.jpg');"></div>
+            <div class="slide" style="background-image: url('images/soiregris.jpg');"></div>
+            <div class="slide active" style="background-image: url('images/SS\ Bleu.jpg');"></div>
+            <div class="slide" style="background-image: url('images/SS\ Gris.jpg');"></div>
+            <div class="slide" style="background-image: url('images/SS\ violet.jpg');"></div>
+            <div class="slide" style="background-image: url('images/SS\ skiclub.jpg');"></div>
+            <div class="slide active" style="background-image: url('images/triplette.jpg');"></div>
+            <div class="slide" style="background-image: url('images/tryptique.jpg');"></div>
+            <div class="slide" style="background-image: url('images/VRT.jpg');"></div>
+            <div class="slide active" style="background-image: url('images/WEB\ J1.jpg');"></div>
+            <div class="slide" style="background-image: url('images/WEB\ J2.jpg');"></div>
+            <div class="slide" style="background-image: url('images/Pub_hilap2.jpg');"></div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Tournage ESTP</h1>
+        </div>
+
+        <a href="#evenements" class="scroll-indicator">
+            <span>Défiler</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </header>
+
+
+    <!-- ==========================================================================
+       ZONE DE RECHERCHE
+       ========================================================================== -->
+    <section class="main-section" id="evenements">
+        
+        <div class="section-header">
+            <button class="nav-arrow prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+            <h2 class="section-title" id="currentYearTitle">Galeries Photos 2025</h2>
+            <button class="nav-arrow next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+<!-- ==========================================================================
+      
+
+2025/2026
+
+
+       ========================================================================== -->
+ 
+        <div class="year-container active" id="year-2025" data-theme="theme-rouge">
+            
+            <div class="filter-container">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="tous">Tous</button>
+                    <button class="tab-btn" data-category="soirees">Soirées</button>
+                    <button class="tab-btn" data-category="pub">PUB</button>
+                    <button class="tab-btn" data-category="web">WEB</button>
+                    <button class="tab-btn" data-category="ss">SS</button>
+                    <button class="tab-btn" data-category="gala">Gala</button>
+                    <button class="tab-btn" data-category="autres">Autres</button>
+                </div>
+            </div>
+
+            <div class="events-grid">
+                
+
+    <!-- ==========================================================================
+       PUB
+       ========================================================================== -->
+
+
+                <!-- evenement 1 : PUB Halloween -->
+                <div class="event-card" data-category="pub">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Pub_halloween.jpg" alt="pub halloween">
+                        <span class="card-category-badge">Pub</span>
+                        <span class="card-date-badge">Novembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pub Halloween</h3>
+                        <a href="https://photos.app.goo.gl/rgcJstVfg5yfoCcC9" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 2 : PUB Noël -->
+                <div class="event-card" data-category="pub">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Pub_noël.jpg" alt="pub noel">
+                        <span class="card-category-badge">Pub</span>
+                        <span class="card-date-badge">Décembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pub de noël</h3>
+                        <a href="https://photos.app.goo.gl/Pm2QcmfoGsFZQXSW8" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 3 : PUB Gris -->
+                <div class="event-card" data-category="pub">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Pub_gris.jpg" alt="pub gris">
+                        <span class="card-category-badge">Pub liste</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pub des gris - Blocopératoire</h3>
+                        <a href="https://photos.app.goo.gl/qQ48xZpVqavnYL4GA" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Foule</span>
+                        </a>
+                        <a href="https://photos.app.goo.gl/CRXfxv8nvtr8SPMT6" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Photobooth</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 3 : PUB VIOLET -->
+                <div class="event-card" data-category="pub">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Pub_Violet.jpg" alt="pub violet">
+                        <span class="card-category-badge">Pub liste</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pub des violet - Very road trip</h3>
+                        <a href="https://photos.app.goo.gl/MAjELXxDLDrKErUC9" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Foule</span>
+                        </a>
+                        <a href="https://photos.app.goo.gl/zvDKrkdLwRmzs6cCA" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Photobooth</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 3 : PUB BLEU -->
+                <div class="event-card" data-category="pub">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Pub_bleu.jpg" alt="pub bleu">
+                        <span class="card-category-badge">Pub liste</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pub des Bleus - Les fetes du blocbrothers</h3>
+                        <a href="https://photos.app.goo.gl/t4NgEihHzDs5UooA6" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Foule</span>
+                        </a>
+                        <a href="https://photos.app.goo.gl/JcKuTxERd1kCcuC39" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Photobooth</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 3 : PUB ASIE -->
+                <div class="event-card" data-category="pub">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Pub_Asie.jpg" alt="pub asie">
+                        <span class="card-category-badge">Pub</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pub asie</h3>
+                        <a href="https://photos.app.goo.gl/LXReymC1eY4gV3TGA" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 3 : PUB SOLIDAIRE -->
+                <div class="event-card" data-category="pub">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Pub_hilap2.jpg" alt="pub hilap">
+                        <span class="card-category-badge">Pub</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pub solidaire</h3>
+                        <a href="https://photos.app.goo.gl/PBZhkHwCo6Mt7nNB7" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+
+
+    <!-- ==========================================================================
+       WEB
+       ========================================================================== -->
+
+
+                <!-- evenement 4 : WEb J1 -->
+                <div class="event-card" data-category="web">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/WEB J1.jpg" alt="WEB1">
+                        <span class="card-category-badge">WEB J1</span>
+                        <span class="card-date-badge">Septembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">WEB - Jour 1</h3>
+                        <a href="https://photos.app.goo.gl/Q1VZok5UK6bDpK7AA" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Après-midi</span>
+                        </a>
+                        <a href="https://photos.app.goo.gl/FwhWU6TRNm5izSNM6" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Soirée</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 5 : WEb J2 -->
+                <div class="event-card" data-category="web">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/WEB J2.jpg" alt="web2">
+                        <span class="card-category-badge">WEB J2</span>
+                        <span class="card-date-badge">Septembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">WEB - Jour 2</h3>
+                        <a href="https://photos.app.goo.gl/Gr9GYZn3d33tngQk7" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Après-midi</span>
+                        </a>
+                        <a href="https://photos.app.goo.gl/UK8wwhEEoRdqsyVj8" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive - Soirée</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                
+    <!-- ==========================================================================
+       SS
+       ========================================================================== -->
+
+                <!-- evenement 6 : SS 1 THUNDER BLOC -->
+                <div class="event-card" data-category="ss">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/SS violet.jpg" alt="SS violet">
+                        <span class="card-category-badge">SS</span>
+                        <span class="card-date-badge">Février 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">SS - soirées ThunderBloc</h3>
+                        <a href="https://photos.app.goo.gl/naF8kP7ButFMVGkh9" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 7 : SS 2 BLOCK BROTHERS -->
+                <div class="event-card" data-category="ss">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/SS Bleu.jpg" alt="SS bleu">
+                        <span class="card-category-badge">SS</span>
+                        <span class="card-date-badge">Février 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">SS - soirées BlocBrothers</h3>
+                        <a href="https://photos.app.goo.gl/3tuS3rU5WTK2d2767" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 8 : SS 3 BLOC ATTACK -->
+                <div class="event-card" data-category="ss">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/SS Gris.jpg" alt="SS gris">
+                        <span class="card-category-badge">SS</span>
+                        <span class="card-date-badge">Février 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">SS - soirées BlocAttack</h3>
+                        <a href="https://photos.app.goo.gl/5bj86HqrTkwv6nBK9" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement 6 : SS 4  SKI CLUB-->
+                <div class="event-card" data-category="ss">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/SS skiclub.jpg" alt="SS skiclub">
+                        <span class="card-category-badge">SS</span>
+                        <span class="card-date-badge">Février 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">SS - soirées SkiClub</h3>
+                        <a href="https://photos.app.goo.gl/5kSJESP4hW2jJeDv5" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive </span>
+                        </a>
+                    </div>
+                </div>
+
+
+    <!-- ==========================================================================
+       GALA
+       ========================================================================== -->
+
+                <!-- evenement  : GALA ARRIVER DINER-->
+                <div class="event-card" data-category="gala">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Gala diner.jpg" alt="Gala diner">
+                        <span class="card-category-badge">Gala</span>
+                        <span class="card-date-badge">/// 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Gala - Dîner</h3>
+                        <a href="https://photos.app.goo.gl/4hP3HCawpLq71iT47" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+             <!-- evenement  : GALA FOULE-->
+                <div class="event-card" data-category="gala">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/gala foule.jpg" alt="gala foule">
+                        <span class="card-category-badge">Gala</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Gala - Foule</h3>
+                        <a href="https://photos.app.goo.gl/zUayyHsg5P4fXBKKA" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : GALA STAND-->
+                <div class="event-card" data-category="gala">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/gala stand (2).jpg" alt="gala stand">
+                        <span class="card-category-badge">Gala</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Gala - Stand</h3>
+                        <a href="https://photos.app.goo.gl/r4J47MCf8gviDhhCA" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+            
+    <!-- ==========================================================================
+       Soirée
+       ========================================================================== -->
+
+                <!-- evenement  : BOUCHERIE-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/boucherie.jpg" alt="boucherie">
+                        <span class="card-category-badge">Soirée bloc</span>
+                        <span class="card-date-badge">novembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">La boucherie</h3>
+                        <a href="https://photos.app.goo.gl/znJ2NBYqcsnokMQr5" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : TRIPTIQUE-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/tryptique.jpg" alt="tryptique">
+                        <span class="card-category-badge">Soirées bloc</span>
+                        <span class="card-date-badge">Décembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Soirée tryptique</h3>
+                        <a href="https://photos.app.goo.gl/aecEkFCdigxMQvYE9 " target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : FORUM X BLOC-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/forum x bloc.jpg" alt="formuxbloc">
+                        <span class="card-category-badge">Soirées</span>
+                        <span class="card-date-badge">Janvier 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Soirée forum X bloc</h3>
+                        <a href="https://photos.app.goo.gl/gw86rpBDqiPrhaJa7" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : SOIREE VIOLET PURPLE FICTION-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/purpelfiction.jpg" alt="purple fiction">
+                        <span class="card-category-badge">Soirées Listeux</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Soirée des violets - Purple fiction</h3>
+                        <a href="https://photos.app.goo.gl/asLeeDGZW22TttUw5" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : SOIREE GRIS 28 NUANCE DE GRIS-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/soiregris.jpg" alt="soiree gris">
+                        <span class="card-category-badge">Soirées des listeux</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Soirée des gris - 28 nuances de gris</h3>
+                        <a href="https://photos.app.goo.gl/bTJ5dDgiqsBDfLWz6" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : TRIPLETTE-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/triplette.jpg" alt="triplette">
+                        <span class="card-category-badge">Soirées</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Soirée triplette</h3>
+                        <a href="https://photos.app.goo.gl/V6naPkaS6kzoN9n59" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : SOIREE BLEU COACHELLA-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/boitebleu.jpg" alt="Soirée bleu">
+                        <span class="card-category-badge">Soirées des listeux</span>
+                        <span class="card-date-badge">Septembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Soirée des bleus - Coachella</h3>
+                        <a href="https://photos.app.goo.gl/aSVLiSAaSNzSrpDDA" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : OB VRT-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/VRT.jpg" alt="VRT">
+                        <span class="card-category-badge">Soirées</span>
+                        <span class="card-date-badge">//// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">VRT by violet</h3>
+                        <a href="https://photos.app.goo.gl/6bMqzL9CpeuqZeYW9" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : LA PURGE-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/purge.jpg" alt="purge">
+                        <span class="card-category-badge">Soirées</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LA purge by bleu</h3>
+                        <a href=" https://photos.app.goo.gl/Fmi46gmopKVnGPPK7" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+       
+    <!-- ==========================================================================
+       Autre
+       ========================================================================== -->
+
+                <!-- evenement  : BANQUET GOURMET-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/gourmet.jpg" alt="gourmet">
+                        <span class="card-category-badge">Diner</span>
+                        <span class="card-date-badge">/// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Diner Gourmet</h3>
+                        <a href="https://photos.app.goo.gl/myBMEqEHxVNZDiH9A" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : GARDEN-->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/Garden.jpg" alt="garden">
+                        <span class="card-category-badge">Garden</span>
+                        <span class="card-date-badge">Septembre 2025</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Garden bloc</h3>
+                        <a href="https://photos.app.goo.gl/MTzgT28Y6mnbvS5U6" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- evenement  : FEST NOZ -->
+                <div class="event-card" data-category="soirees">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/festNoz.jpg" alt="fest noz">
+                        <span class="card-category-badge">Diner</span>
+                        <span class="card-date-badge">//// 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Le Fest Noz</h3>
+                        <a href="https://photos.app.goo.gl/bzDMXrAhdjSZystE7" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+<!-- ==========================================================================
+      
+
+2026/2027
+
+
+       ========================================================================== -->
+    
+
+
+
+
+
+        <div class="year-container" id="year-2026" data-theme="theme-bleu">
+            <div class="filter-container">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="tous">Tous</button>
+                    <button class="tab-btn" data-category="gala">Soirées</button>
+                    <button class="tab-btn" data-category="integration">PUB</button>
+                    <button class="tab-btn" data-category="sport">WEB</button>
+                    <button class="tab-btn" data-category="asso">Gala</button>
+                </div>
+            </div>
+
+            <div class="events-grid">
+                <div class="event-card" data-category="gala">
+                    <div class="card-image-wrapper">
+                        <img class="card-image" src="images/gala_2026_card.jpg" alt="Gala ESTP">
+                        <span class="card-category-badge">Galas & Soirées</span>
+                        <span class="card-date-badge">Février 2026</span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Gala Stand 2026</h3>
+                        <a href="https://drive.google.com" target="_blank" class="drive-link">
+                            <i class="fa-brands fa-google-drive"></i>
+                            <span>Ouvrir l'album Drive</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-results" id="noResultsMessage">
+            <i class="fa-regular fa-folder-open" style="font-size: 40px; margin-bottom: 16px; display: block; color: var(--text-muted);"></i>
+            Aucun album photo ne correspond à votre recherche...
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+    <footer>
+        <div class="footer-logo">TOURNAGE <span>ESTP</span></div>
+        <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="mailto:contact@tournage-estp.fr"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="footer-copyright">
+            &copy; By Tournage ESTP 2026/2027. 
+        </div>
+    </footer>
+
+    <!-- ==========================================================================
+       7. LOGIQUE JAVASCRIPT (DIAPORAMA, RECHERCHE & FILTRES)
+       ========================================================================== -->
+    <script src="script.js"></script>
+</body>
+</html>
