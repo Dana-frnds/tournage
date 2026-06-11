@@ -492,27 +492,63 @@ footer {
 }
 
 /* ==========================================================================
-   VERSION MOBILE (RESPONSIVE DESIGN) VIA INTERNET
+   VERSION MOBILE & TABLETTE (RESPONSIVE DESIGN)
    ========================================================================== */
+
+/* Ce code se déclenche UNIQUEMENT sur les écrans de moins de 768px (smartphones) */
 @media (max-width: 768px) {
-    .hero { height: 100vh; }
-    .hero-content h1 { font-size: 2.2rem !important; }
+    
+    /* 1. On adapte la section d'accueil (Hero) */
+    .hero {
+        height: 100vh; /* On réduit un peu la hauteur du diaporama pour qu'il prenne moins de place */
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem !important; /* On rétrécit le gros titre pour qu'il tienne sur deux lignes */
+    }
+
+    /* 2. On ajuste la barre de navigation et les onglets */
     .category-tabs {
         display: flex;
-        overflow-x: auto;
+        overflow-x: auto; /* Permet de faire défiler les boutons de gauche à droite avec le doigt si ça dépasse ! */
         padding-bottom: 8px;
         white-space: nowrap;
         justify-content: flex-start !important;
         -webkit-overflow-scrolling: touch;
     }
-    .tab-btn { padding: 8px 16px !important; font-size: 0.9rem !important; }
-    .events-grid {
-        grid-template-columns: 1fr !important;
-        gap: 20px !important;
-        padding: 0 10px !important;
+
+    .tab-btn {
+        padding: 8px 16px !important;
+        font-size: 0.9rem !important;
     }
-    .event-card { margin: 0 auto; width: 100% !important; max-width: 100%; }
-    .card-title { font-size: 1.3rem !important; }
-    .drive-link { padding: 14px 20px !important; }
-    footer { padding: 30px 15px !important; flex-direction: column; gap: 15px; text-align: center; }
+
+    /* 3. LA GRILLE D'ÉVÉNEMENTS : Le gros changement ! */
+    .events-grid {
+        grid-template-columns: 1fr !important; /* Force les cartes à se mettre sur 1 seule colonne (les unes sous les autres) */
+        gap: 20px !important;                 /* Espace de 20px entre chaque carte */
+        padding: 0 10px !important;            /* Évite que les cartes ne collent aux bords de l'écran du téléphone */
+    }
+
+    /* 4. On ajuste la taille des cartes pour qu'elles soient parfaites au doigt */
+    .event-card {
+        margin: 0 auto;
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .card-title {
+        font-size: 1.3rem !important; /* Titre de carte légèrement plus petit */
+    }
+
+    .drive-link {
+        padding: 14px 20px !important; /* Boutons Drive légèrement plus grands pour pouvoir cliquer facilement avec le pouce */
+    }
+    
+    /* 5. Le pied de page (Footer) */
+    footer {
+        padding: 30px 15px !important;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
 }
