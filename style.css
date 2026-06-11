@@ -495,7 +495,7 @@ footer {
    VERSION MOBILE (RESPONSIVE DESIGN) VIA INTERNET
    ========================================================================== */
 @media (max-width: 768px) {
-    .hero { height: 60vh; }
+    .hero { height: 100vh; }
     .hero-content h1 { font-size: 2.2rem !important; }
     .category-tabs {
         display: flex;
