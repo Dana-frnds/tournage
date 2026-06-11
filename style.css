@@ -551,16 +551,9 @@ footer {
         gap: 15px;
         text-align: center;
     }
-
-   /* On force l'en-tête (le titre ou la navbar) à garder de l'espace sur les côtés */
-    .hero-content {
-        padding: 0 20px !important; /* Crée une zone de sécurité de 20px à gauche et à droite */
-        text-align: center;         /* Centre bien le texte pour le style */
-    }
-
-    /* Si c'est le texte du logo tout en haut ou dans le footer qui touche le bord */
-    .logo, .footer-logo, h1 {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+    .navbar, nav, .nav-container {
+        padding-left: 20px !important;  /* Crée un espace de sécurité de 20px au bord gauche */
+        padding-right: 20px !important; /* Crée le même espace à droite pour équilibrer si besoin */
+        box-sizing: border-box;         /* Évite que la barre ne dépasse de l'écran à cause du padding */
     }
 }
