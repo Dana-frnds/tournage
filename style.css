@@ -551,9 +551,29 @@ footer {
         gap: 15px;
         text-align: center;
     }
+
+    /* 1. On configure le conteneur de la navbar */
     .navbar, nav, .nav-container {
-        padding-left: 20px !important;  /* Crée un espace de sécurité de 20px au bord gauche */
-        padding-right: 20px !important; /* Crée le même espace à droite pour équilibrer si besoin */
-        box-sizing: border-box;         /* Évite que la barre ne dépasse de l'écran à cause du padding */
+        display: flex !important;           /* Active le mode Flexbox pour aligner les éléments */
+        justify-content: center !important; /* Centre horizontalement le contenu principal */
+        align-items: center !important;     /* Centre verticalement le contenu */
+        width: 100% !important;             /* Prend toute la largeur de l'écran */
+        padding: 0 !important;              /* Supprime tout padding qui pourrait décaler */
+        box-sizing: border-box !important;
+    }
+
+    /* 2. On configure le logo pour qu'il prenne l'espace central */
+    .logo, [class*="logo"], .brand, [class*="brand"] {
+        margin: 0 auto !important;          /* LE SECRET : Marges automatiques gauche et droite = Centrage parfait */
+        max-width: 90% !important;          /* Limite la largeur à 90% de l'écran (laisse 5% de vide de chaque côté) */
+        text-align: center !important;      /* Centre le texte à l'intérieur du bloc */
+        display: inline-block !important;
+        padding: 0 !important;              /* Supprime tout padding gênant */
+    }
+
+    /* 3. Zone de sécurité sur le texte si c'est un titre */
+    h1.logo, .logo span {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 }
